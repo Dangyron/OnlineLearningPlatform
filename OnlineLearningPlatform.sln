@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineLearningPlatform.Backend", "OnlineLearningPlatform.Backend", "{DA6E665B-933F-43EF-A96C-7D19301A9B0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineLearningPlatform.Frontend", "OnlineLearningPlatform.Frontend", "{D0596C03-FA2D-492D-9D83-5FDDADCC9E7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F137B7E4-0737-466A-BB81-A7710EB380E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{71BBFDE4-009A-4140-95B3-511FEF4CA954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineLearningPlatform.WebApi", "OnlineLearningPlatform.WebApi\OnlineLearningPlatform.WebApi.csproj", "{B09110E1-4B7F-4ED5-958C-C671148142BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineLearningPlatform.Domain", "OnlineLearningPlatform.Domain\OnlineLearningPlatform.Domain.csproj", "{E84E7E61-1286-4C67-9DCD-A6E5071A12DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineLearningPlatform.Persistense", "OnlineLearningPlatform.Persistense\OnlineLearningPlatform.Persistense.csproj", "{0BA927DE-5DFF-40EE-A2C1-0D8EF2EC9DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineLearningPlatform.Application", "OnlineLearningPlatform.Application\OnlineLearningPlatform.Application.csproj", "{076E7639-ADD8-42AD-8A6D-E36CB701BABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F137B7E4-0737-466A-BB81-A7710EB380E3} = {DA6E665B-933F-43EF-A96C-7D19301A9B0D}
+		{71BBFDE4-009A-4140-95B3-511FEF4CA954} = {DA6E665B-933F-43EF-A96C-7D19301A9B0D}
+		{B09110E1-4B7F-4ED5-958C-C671148142BE} = {F137B7E4-0737-466A-BB81-A7710EB380E3}
+		{E84E7E61-1286-4C67-9DCD-A6E5071A12DE} = {F137B7E4-0737-466A-BB81-A7710EB380E3}
+		{0BA927DE-5DFF-40EE-A2C1-0D8EF2EC9DC1} = {F137B7E4-0737-466A-BB81-A7710EB380E3}
+		{076E7639-ADD8-42AD-8A6D-E36CB701BABB} = {F137B7E4-0737-466A-BB81-A7710EB380E3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B09110E1-4B7F-4ED5-958C-C671148142BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09110E1-4B7F-4ED5-958C-C671148142BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09110E1-4B7F-4ED5-958C-C671148142BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09110E1-4B7F-4ED5-958C-C671148142BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E7E61-1286-4C67-9DCD-A6E5071A12DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E7E61-1286-4C67-9DCD-A6E5071A12DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E7E61-1286-4C67-9DCD-A6E5071A12DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E7E61-1286-4C67-9DCD-A6E5071A12DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA927DE-5DFF-40EE-A2C1-0D8EF2EC9DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA927DE-5DFF-40EE-A2C1-0D8EF2EC9DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA927DE-5DFF-40EE-A2C1-0D8EF2EC9DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA927DE-5DFF-40EE-A2C1-0D8EF2EC9DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076E7639-ADD8-42AD-8A6D-E36CB701BABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076E7639-ADD8-42AD-8A6D-E36CB701BABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076E7639-ADD8-42AD-8A6D-E36CB701BABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076E7639-ADD8-42AD-8A6D-E36CB701BABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
