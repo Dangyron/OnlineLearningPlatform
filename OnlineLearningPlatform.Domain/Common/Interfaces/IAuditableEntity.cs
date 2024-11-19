@@ -2,7 +2,7 @@
 
 public interface IAuditableEntity<out TId> : IEntity<TId>
 {
-    DateTime CreatedOn { get; }
-    DateTime ModifiedOn { get; }
-    DateTime? DeletedOn { get; }
+    DateTime CreatedAt { get; }
+    DateTime? ModifiedAt { get; }
+    DateTime? DeletedAt { get; }
 }
