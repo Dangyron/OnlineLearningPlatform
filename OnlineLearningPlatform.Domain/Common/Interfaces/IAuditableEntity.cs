@@ -1,6 +1,6 @@
 ﻿namespace OnlineLearningPlatform.Domain.Common.Interfaces;
 
-public interface IAuditableEntity<out TId> : IEntity<TId>
+public interface IAuditableEntity : IEntity
 {
     DateTime CreatedAt { get; }
     DateTime? ModifiedAt { get; }

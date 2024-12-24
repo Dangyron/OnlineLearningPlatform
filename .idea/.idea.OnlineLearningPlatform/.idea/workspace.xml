@@ -10,24 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="846189ac-ec99-4d09-8f6f-42a3010bdf1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/ApplicationUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/AuditableEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Assignment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Author.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Course.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Enrollment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Grade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Lesson.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Student.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Submission.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Teacher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineLearningPlatform/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineLearningPlatform/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Application/Common/Security/Permissions/Course.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Application/Common/Security/Roles/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Resource.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineLearningPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineLearningPlatform/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Application/OnlineLearningPlatform.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Application/OnlineLearningPlatform.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/ApplicationUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Application/Common/CoreEntities/ApplicationUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/AuditableEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/CoreEntities/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/Interfaces/IAuditableEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/Interfaces/IAuditableEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/Interfaces/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Common/Interfaces/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Assignment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Assignment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Author.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Author.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Course.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Enrollment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Grade.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Lesson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Lesson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Submission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Submission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Teacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Teacher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/OnlineLearningPlatform.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Domain/OnlineLearningPlatform.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.Persistense/OnlineLearningPlatform.Persistense.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.Persistense/OnlineLearningPlatform.Persistense.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineLearningPlatform.WebApi/OnlineLearningPlatform.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineLearningPlatform.WebApi/OnlineLearningPlatform.WebApi.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +60,18 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/814b4b794ed3423b977c42f82659a8052800/c2/5f071e2e/02000007pdb11High.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/814b4b794ed3423b977c42f82659a8052800/c9/ba9eaac9/0200000Fpdb3Low.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/814b4b794ed3423b977c42f82659a8052800/dd/386b7d78/02000003pdb7High.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/814b4b794ed3423b977c42f82659a8052800/dd/386b7d78/02000003pdb7Low.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/f0/3008a7d2/IEquatable`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73d64565083f4cf6a4dbbe997633640eca6b0/e6/543af495/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d382df578ec93391918cfaa4ce7f4b8f35c9aed1241d6556dc9be26df13c/IdentityUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineLearningPlatform.Domain/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -79,6 +88,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -87,7 +97,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -159,8 +169,23 @@
       <workItem from="1731326074451" duration="1299000" />
       <workItem from="1731506064426" duration="3320000" />
       <workItem from="1732042325203" duration="50000" />
-      <workItem from="1732042391563" duration="797000" />
+      <workItem from="1732042391563" duration="9941000" />
+      <workItem from="1732103225269" duration="2312000" />
+      <workItem from="1732110408501" duration="141000" />
+      <workItem from="1732128080910" duration="5661000" />
+      <workItem from="1734171701722" duration="2735000" />
+      <workItem from="1734615200223" duration="3844000" />
+      <workItem from="1734889414340" duration="2190000" />
     </task>
+    <task id="LOCAL-00001" summary="Added some entities">
+      <option name="closed" value="true" />
+      <created>1732043247667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732043247667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,5 +206,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added some entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some entities" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

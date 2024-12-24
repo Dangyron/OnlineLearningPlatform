@@ -2,7 +2,7 @@
 
 namespace OnlineLearningPlatform.Domain.Models;
 
-public class Submission : AuditableEntity<Guid>
+public class Submission : BaseEntity
 {
     
 }

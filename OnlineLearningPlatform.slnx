@@ -1,0 +1,11 @@
+﻿<Solution>
+  <Folder Name="/OnlineLearningPlatform.Backend/" />
+  <Folder Name="/OnlineLearningPlatform.Backend/src/">
+    <Project Path="OnlineLearningPlatform.Application\OnlineLearningPlatform.Application.csproj" Type="Classic C#" />
+    <Project Path="OnlineLearningPlatform.Domain\OnlineLearningPlatform.Domain.csproj" Type="Classic C#" />
+    <Project Path="OnlineLearningPlatform.Persistense\OnlineLearningPlatform.Persistense.csproj" Type="Classic C#" />
+    <Project Path="OnlineLearningPlatform.WebApi\OnlineLearningPlatform.WebApi.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/OnlineLearningPlatform.Backend/tests/" />
+  <Folder Name="/OnlineLearningPlatform.Frontend/" />
+</Solution>
